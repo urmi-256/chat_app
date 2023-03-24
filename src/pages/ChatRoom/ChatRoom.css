@@ -1,0 +1,49 @@
+.chatRoom-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .main_room {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 1rem;
+    height: 90vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqMdddS5WoPOqsJvn26oVcmzAbH4v92XO87w&usqp=CAU");
+    border-radius: 10px;
+  }
+  .room_selection {
+    width: 20%;
+    height: 90vh;
+    margin: 1rem;
+  }
+  .message_container {
+    height: 70vh;
+   
+  }
+  #chatRoom-heading {
+    color: rgb(2, 41, 41);
+    border:2px solid rgb(180, 157, 91);
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: rgb(231, 215, 176);
+    font-size: larger;
+    font-weight: 600;
+  }
+  .user_name {
+    color: rgb(95, 95, 95);
+  }
+  #send_message {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .message_bubble {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 40%;
+    align-items: flex-end;
+  }
+  
